@@ -1,13 +1,14 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
   </head>
   <body>
     <div id="audio-player">
       <audio id="player" controls></audio>
+<input type="range" id="volume" min="0" max="1" step="0.01" value="1">
+
     </div>
    <div class="allt"> 
     <div class="gradientRing"></div>
@@ -24,9 +25,9 @@
 
 
 <div class="bildContainer">
-		<img src="https://cdn.glitch.global/5010133b-7f1d-4783-b764-2c4905f27ee4/untitled.png?v=1676630482683" alt="Image">
+		<img src="https://cdn.glitch.global/5010133b-7f1d-4783-b764-2c4905f27ee4/radio-gif.gif?v=1677098148893" alt="Image">
 	</div>
--->
+
     <nav id="nav-menu">
       <ul>
         <li><a href="#" data-sound="https://http-live.sr.se/p1-mp3-192">P1</a></li>
@@ -35,7 +36,7 @@
         <li><a href="#" data-sound="https://http-live.sr.se/p4stockholm-mp3-192">P4 Stockholm</a></li>
         <li><a href="#" data-sound="https://ice2.somafm.com/missioncontrol-128-mp3">Mission Control</a></li>
         <li><a href="#" data-sound="https://audiotainment-sw.streamabc.net/atsw-oldschoolhiphop-mp3-128-3940912?sABC=63ronq5r%230%23n2382qro0prr58q1pqqr25378sors240%23enqvbqr&aw_0_1st.playerid=radiode&amsparams=playerid:radiode;skey:1676389726">bigFM Oldschool Rap & Hip-Hop</a></li>
-        <li><a href="#" data-sound="https://strw1.openstream.co/938?">House & Techno Classics</a></li>
+        <li><a href="#" data-sound="https://strw1.openstream.co/938">House & Techno Classics</a></li>
         <li><a href="#" data-sound="https://listen.soulradio.us/us">Soul Radio Classics US</a></li>
         <li><a href="#" data-sound="http://fm05-ice.stream.khz.se/fm05_mp3">Star FM</a></li>
         <li><a href="#" data-sound="http://wr08-ice.stream.khz.se/wr08_mp3">Soul Classics	SWE</a></li>
@@ -46,12 +47,32 @@
  
 
 <div id="info-menu">
-      <button id="info-btn">Info</button>
-      <div id="info-content">
-        <h2>Information</h2>
-        <p>This is the info menu content.</p>
-      </div>
+  <button id="info-btn">Info</button>
+ <div id="info-content-allt">
+  <div class="info-content2">
+    <h2>Radio.stund.nu</h2>
+    <p> Radio är mer än ljudfrekvenser, det är också en fysisk apparat<br> som du kan hålla i, apparaten är också snygg.
+     <br> <br>Radio.stund.nu är till för att lyssna på radio via internet på<br> ett mer visuellt sätt. Använd dig av hemsidan som en<br> skärmsläckare medan du lyssnar, 
+      då kan du också<br> komma närmare den nu daterade relationen till radio-<br>apparaten och återigen få en visuell relation till den.<br><br> Denna sida är till för alla som vill använda den. <br> Skriv till radio.stund.nu@gmail.com 
+    om du vill lägga till en <br> radiokanal eller har förslag till en bild på en ny radio som kan<br> visas i mitten på sidan. <br> </p>
+<div id="webring">
+  <div class="webring-container">
+    <div id="webring-left">
+      <a href="https://www.prevousweb.site"><img src="https://cdn.glitch.global/1b0987ca-92d3-4c5f-9e9e-a76378d23f82/%E2%80%94Pngtree%E2%80%94vector%20left%20arrow%20icon_4187254.png?v=1676967339772" alt="Previous"></a>
     </div>
+    <div id="webring-middle">
+      This Single Serving Site is based on the <a href="https://en.wikipedia.org/wiki/Poetry">Poetry Wikipedia entry</a> <br> and is part of the <a href="https://2023.worldwidewebring.club">Social Media</a> Webring.<br>
+  Click on the arrow keys to arrive at the next or previous<br> webpage.
+    </div>
+    <div id="webring-right">
+      <a href="https://www.nextweb.site"><img src="https://cdn.glitch.global/1b0987ca-92d3-4c5f-9e9e-a76378d23f82/%E2%80%94Pngtree%E2%80%94vector%20left%20arrow%20icon_4187254.png?v=1676967339772" alt="Next" style="transform: scaleX(-1)"></a>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+</div>
+
 
 
     <script src="script.js"></script>
