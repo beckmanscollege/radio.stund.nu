@@ -158,7 +158,7 @@ img {
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
   z-index: 1;
-  color: black;
+  color: white;
 }
 
 #hamburger-button {
